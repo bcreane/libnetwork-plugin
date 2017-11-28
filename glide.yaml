@@ -1,7 +1,7 @@
 package: github.com/projectcalico/libnetwork-plugin
 import:
 - package: github.com/projectcalico/libcalico-go
-  version: 119c3c82c1c22337ceaffea0cdca5b127a139a1d
+  version: v1.7.3
 - package: github.com/coreos/etcd
   version: 17ae440991da3bdb2df4309936dd2074f66ec394
 - package: github.com/ugorji/go
@@ -13,7 +13,7 @@ import:
 - package: github.com/sirupsen/logrus
   version: ^0.10.0
 - package: github.com/docker/docker
-  version: d032264e1365a1cea621b7105e1ca521cb4218ef
+  version: v17.03.2-ce
   subpackages:
   - client
   - api
